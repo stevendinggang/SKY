@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct WeatherData {
+struct WeatherData: Codable {
     let latitude: Double
     let longitude: Double
     let currently: CurrentWeather
