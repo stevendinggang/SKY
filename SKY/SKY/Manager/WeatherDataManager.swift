@@ -58,7 +58,8 @@ final class WeatherDataManager {
             if response.statusCode == 200 {
                 do {
                     let weatherData = try JSONDecoder().decode(WeatherData.self, from: data)
-
+                    let test = "est"
+                    
                     completion(weatherData,nil)
                 }
                 catch {
