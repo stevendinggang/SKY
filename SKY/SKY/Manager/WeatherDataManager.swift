@@ -62,7 +62,7 @@ final class WeatherDataManager {
                     completion(weatherData,nil)
                 }
                 catch {
-                    completion(nil, .invalidResponse)
+                    completion(nil,.invalidResponse)
                 }
         }
     }
